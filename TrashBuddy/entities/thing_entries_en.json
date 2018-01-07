@@ -1,0 +1,133 @@
+[
+  {
+    "value": "paper",
+    "synonyms": [
+      "paper",
+      "newspapers",
+      "magazines",
+      "flyers",
+      "carton",
+      "milk carton",
+      "juice carton",
+      "starbucks cup,",
+      "coffee cup"
+    ]
+  },
+  {
+    "value": "batteries",
+    "synonyms": [
+      "batteries",
+      "bulbs",
+      "incandescent bulbs",
+      "fluorescent bulbs"
+    ]
+  },
+  {
+    "value": "Electronics",
+    "synonyms": [
+      "Electronics",
+      "microwave",
+      "tv",
+      "television",
+      "phone",
+      "cell phone",
+      "telephone",
+      "fridge",
+      "refrigerator"
+    ]
+  },
+  {
+    "value": "fruits",
+    "synonyms": [
+      "fruits",
+      "apple",
+      "apples",
+      "banana peel",
+      "orange",
+      "orange peel",
+      "kiwi",
+      "peach",
+      "mango",
+      "melon",
+      "watermelon"
+    ]
+  },
+  {
+    "value": "styrofoam",
+    "synonyms": [
+      "Foam packets",
+      "styrofoam"
+    ]
+  },
+  {
+    "value": "box",
+    "synonyms": [
+      "box",
+      "UPS box",
+      "FeDex box",
+      "DHL box",
+      "Amazon Box",
+      "Cardboard box"
+    ]
+  },
+  {
+    "value": "glass",
+    "synonyms": [
+      "glass container",
+      "coke can",
+      "soda can",
+      "coca-cola",
+      "pepsi",
+      "sprite",
+      "aluminum can",
+      "beer",
+      "beer bottle",
+      "wine bottle",
+      "glass"
+    ]
+  },
+  {
+    "value": "bones",
+    "synonyms": [
+      "bones",
+      "chicken bones"
+    ]
+  },
+  {
+    "value": "vegetables",
+    "synonyms": [
+      "vegetables",
+      "vegetable",
+      "tomato",
+      "potato",
+      "pepper",
+      "cucumber",
+      "pickles",
+      "chili",
+      "lettuce",
+      "cauliflower"
+    ]
+  },
+  {
+    "value": "food",
+    "synonyms": [
+      "food",
+      "pasta",
+      "steak",
+      "rice",
+      "curry"
+    ]
+  },
+  {
+    "value": "ceramics",
+    "synonyms": [
+      "ceramics",
+      "coffee mug",
+      "tea cup",
+      "tile",
+      "tiles",
+      "floor",
+      "laminate"
+    ]
+  }
+]

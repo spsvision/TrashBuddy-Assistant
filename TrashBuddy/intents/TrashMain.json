@@ -1,0 +1,50 @@
+{
+  "id": "1be26650-8701-495b-9071-44d4552866d1",
+  "name": "TrashMain",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "trash.main",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7e5000db-6a3a-4cd9-bb31-a91b02f17fd8",
+          "required": true,
+          "dataType": "@thing",
+          "name": "thing",
+          "value": "$thing",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s it made of?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s it composed of?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You should probably recycle that."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506886916,
+  "fallbackIntent": false,
+  "events": []
+}

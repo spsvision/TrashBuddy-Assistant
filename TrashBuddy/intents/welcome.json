@@ -1,0 +1,73 @@
+{
+  "id": "e22848f9-7a57-4e44-a304-2e8a73f72584",
+  "name": "welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "items": [
+            {
+              "textToSpeech": "Hey, I\u0027m your TrashBuddy. How Can I help you?",
+              "displayText": "Hey, I\u0027m your TrashBuddy. I can help you organize your trash into recyclables, compost, and returnables among other things. What would you like to know?"
+            },
+            {
+              "textToSpeech": "Hi there, I\u0027m your TrashBuddy. Let\u0027s get started. What would you like to know?",
+              "displayText": "Hi there, I\u0027m your TrashBuddy. Let\u0027s get started. What would you like to know?"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Are batteries recyclable?"
+            },
+            {
+              "title": "How to recycle batteries?"
+            },
+            {
+              "title": "Are apples compostable?"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hey, I\u0027m your TrashBuddy. I can help you organize your trash into recyclables, compost, and returnables among other things. What would you like to know?",
+            "Hey, I\u0027m your TrashBuddy. I\u0027m here to help you organize your trash. Just let me know the item you want organizing or what it\u0027s made of."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506209793554,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

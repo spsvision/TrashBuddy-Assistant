@@ -1,0 +1,48 @@
+{
+  "description": "The agent will help organize your trash.",
+  "language": "en",
+  "shortDescription": "A very simple FAQ agent",
+  "examples": "User: I\u0027m working on an Assistant app for a sports program.\nUser: I need a Slack bot.\nUser: Can you help me build a hotel booking bot?",
+  "activeAssistantAgents": [
+    "smalltalk-domain-new",
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "faq-jfyrej",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "78a8644e-6c99-463a-afc0-14d24363b22b"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "America/Los_Angeles",
+  "webhook": {
+    "url": "https://us-central1-faq-jfyrej.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2,
+  "supportedLanguages": [
+    "es"
+  ],
+  "enableOnePlatformApi": true
+}

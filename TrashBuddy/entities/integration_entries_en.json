@@ -1,0 +1,54 @@
+[
+  {
+    "value": "Assistant",
+    "synonyms": [
+      "Assistant",
+      "Actions on Google",
+      "aog",
+      "actions"
+    ]
+  },
+  {
+    "value": "Facebook Messenger",
+    "synonyms": [
+      "facebook messenger",
+      "facebook"
+    ]
+  },
+  {
+    "value": "Skype",
+    "synonyms": [
+      "skype"
+    ]
+  },
+  {
+    "value": "Kik",
+    "synonyms": [
+      "kik"
+    ]
+  },
+  {
+    "value": "Line",
+    "synonyms": [
+      "line"
+    ]
+  },
+  {
+    "value": "Telegram",
+    "synonyms": [
+      "telegram"
+    ]
+  },
+  {
+    "value": "Twitter",
+    "synonyms": [
+      "twitter"
+    ]
+  },
+  {
+    "value": "Slack",
+    "synonyms": [
+      "Slack"
+    ]
+  }
+]
